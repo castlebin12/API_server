@@ -4,6 +4,9 @@ from sqlalchemy.orm import sessionmaker
 from models import Base, Puppy
 import logging
 
+'''
+ 간단한 DB연동 및 REST API 서버구축 
+'''
 engine = create_engine('sqlite:///puppies.db')
 Base.metadata.bind = engine
 

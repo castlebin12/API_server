@@ -5,6 +5,9 @@ from sqlalchemy import create_engine
 Base = declarative_base()
 
 class Puppy(Base):
+    '''
+    puppy table로 puppies.db에 테이블 생성 및 serialize를 통해 데이터 통합
+    '''
     __tablename__ = 'puppy'
 
     name = Column(String(80), nullable=False)
