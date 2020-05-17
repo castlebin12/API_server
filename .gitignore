@@ -1,2 +1,4 @@
 api_server_env
 puppy_server/__pycache__
+api_geo_server/__pycache__
+api_geo_server/resaurants.db
